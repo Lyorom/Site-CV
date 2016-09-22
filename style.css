@@ -1,0 +1,18 @@
+body {
+	background: url("Ressource/fond-gris2.jpg") no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.PhotoRomainQ {
+	height:156px;
+	width:100px;
+}
+
+.info {
+
+}
+
+.Métier {
+	text-align: center;
+}
