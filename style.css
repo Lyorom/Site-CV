@@ -9,10 +9,16 @@ body {
 .PhotoRomainQ {
 	height:156px;
 	width:100px;
+	float: left;
+}
+
+.RQ {
+	color: blue;
 }
 
 .info {
-
+	
+	left: 20px;
 }
 
 .Métier {
@@ -27,7 +33,8 @@ nav {
 
 nav li {
     display: inline;
-margin: 0 5px;
+    margin: 0 5px;
+}
 
 /************************ SECTION *****************************/
 
