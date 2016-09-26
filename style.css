@@ -7,12 +7,36 @@ body {
 .PhotoRomainQ {
 	height:156px;
 	width:100px;
+	float: left;
+}
+
+.info {
+
+}
+	
+
+.RQ {
+
 }
 
 .info {
 	
+	left: 20px;
+
 }
 
 .Métier {
 	text-align: center;
+}
+
+
+nav {
+    float: right;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 5px;
+
 }
