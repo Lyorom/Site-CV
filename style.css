@@ -1,28 +1,30 @@
 body {
-	background: url("Ressource/fond-gris2.jpg") no-repeat;
+	margin: auto;
+	background: url("Ressource/clouds.jpg") no-repeat;
 	background-size: cover;
-	color: white;
+	font-family: arial;
+}
+/*----header----*/
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	background: rgba(63,63,63,0.8);
+}
+
+.info {
+	padding-top: 50px;
 }
 
 .PhotoRomainQ {
-	height:156px;
 	width:100px;
-	float: left;
-}
-
-.info {
-
+    border-radius:50px;
 }
 	
-
 .RQ {
-
-}
-
-.info {
-	
-	left: 20px;
-
+	font-size: 20px;
 }
 
 .Métier {
@@ -31,8 +33,8 @@ body {
 
 
 nav {
-    float: right;
-    
+    position:absolute;
+    right: 0;
 }
 
 nav li {
