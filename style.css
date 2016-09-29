@@ -42,3 +42,12 @@ nav li {
     margin: 0 5px;
 
 }
+
+/*----section----*/
+
+.competences {
+	margin-top: 300px;
+	width: 25%;
+	background:rgba(100,100,100,0.5);
+	color: white;
+}
