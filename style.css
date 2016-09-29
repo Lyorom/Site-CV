@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	margin: auto;
 	background: url("Ressource/clouds.jpg") no-repeat;
@@ -47,6 +53,12 @@ nav li {
 
 .competences {
 	margin-top: 300px;
+	width: 25%;
+	background:rgba(100,100,100,0.5);
+	color: white;
+}
+
+.experiences {
 	width: 25%;
 	background:rgba(100,100,100,0.5);
 	color: white;
