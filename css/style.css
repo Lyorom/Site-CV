@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	background: url("../Ressource/fond-gris2.jpg") no-repeat;
+	background-size: cover;
+	font-family: arial;
+	color: white;
+}
+/*----header----*/
+
+header {
+	position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(250, 250, 250,0.9);
+    height: 60px;
+    color: black;
+}
+
+.photoR {
+	width: 6%;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+header p {
+    position: absolute;
+    padding: 5px;
+    margin-left: 200px;
+    margin-top: 75px;
+    font-size: 23px;
+    background: rgba(63,63,63,0.8);
+    color: white;
+}
+
+header nav {
+    position:absolute;
+    right: 0;
+}
+
+header nav li {
+    display: inline;
+    margin: 0 5%;
+}
+
+header nav a {
+		text-decoration: none;
+}
+
+/*----section competences----*/
+
+#competences {
+	margin-top: 300px;
+	width: 25%;
+	background:rgba(100,100,100,0.5);
+}
+
+/*----section experiences----*/
+
+#experiences {
+	width: 25%;
+	background:rgba(100,100,100,0.5);
+}
+
+/*------section contact------*/
+
+#contact {
+	margin: 200px;
+	background:rgba(100,100,100,0.5);
+	display: flex;
+	justify-content: center;
+	height: 450px;
+	align-items: center;
+	text-align: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	margin:40px;
+}
+
+input{
+	margin: 10px;
+	height: 30px;
+	width: 400px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border:0;
+	font-size: 18px;
+	color: white;
+}
+
+textarea{
+	margin: 10px;
+	height: 100px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border:0;
+	font-size: 17px;
+	color: white;
+	resize: none;
+}
+
+button{
+	margin: 10px;
+	height: 40px;
+	width:100px;
+	border-radius: 3px;
+	font-size: 18px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border:0;
+	transition: all 0.5s;
+}
+
+/*----------footer-----------*/
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	font-size: 30px;
+	background-color: #211E1E;
+}
+
+footer nav {ojo-1/
+}
+
+footer nav li {
+	display: inline;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
