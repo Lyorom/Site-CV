@@ -1,10 +1,17 @@
 $(document).ready(function(){
 
-	$('.allsection').hide();
+    $(".button-collapse").sideNav();
+    
+    $('.allsection').hide();
 
-	$('#buttonContact').click(function(){
+	$('#button4').click(function(){
 		$(".allsection").hide();
 		$("#contact").fadeIn("slow");
 	});
-
+    
+    $('#button1').click(function(){
+		$(".allsection").hide();
+		$("#competences").fadeIn("slow");
+	});
+    
 });
