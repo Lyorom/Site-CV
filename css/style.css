@@ -33,6 +33,16 @@ main {
 			border-radius: 50%;
 		}
 
+	/*------section localisation------*/
+
+		#localisation {
+
+		}
+		#localisation iframe {
+			margin-left: 25%;
+			width: 50%;
+		}
+
 	/*------section contact------*/
 
 		#contact {
@@ -53,72 +63,56 @@ main {
 			margin:40px;
 		}
 
-		/*input{*/
-			/*margin: 10px;*/
-			/*height: 30px;*/
-			/*width: 400px;*/
-			/*padding: 10px;*/
-			/*font-size: 18px;*/
-
-			/*background-color: rgba(0, 0, 0, 0.5);*/
-			/*border:0;*/
-			/*color: white;*/
-		/*}*/
-
-		/*textarea{*/
-			/*margin: 10px;*/
-			/*height: 100px;*/
-			/*padding: 10px;*/
-			/*font-size: 17px;*/
-			/*resize: none;*/
-
-			/*background-color: rgba(0, 0, 0, 0.5);*/
-			/*border:0;*/
-			/*color: white;*/
-
-		/*}*/
-
-		/*button{*/
-			/*margin: 10px;*/
-			/*height: 40px;*/
-			/*width:100px;*/
-			/*font-size: 18px;*/
-
-
-			/*background-color: rgba(0, 0, 0, 0.5);*/
-			/*color: white;*/
-			/*border-radius: 3px;*/
-			/*border:0;*/
-
-			/*transition: all 0.5s;*/
-		/*}*/
-
-
 /*----Graphiste---*/
 
 		h3 {
 			text-align: center;
+			margin-bottom: 1em;
 		}
 
 	/*----section competences----*/
 
 		#competences {
 			width: 100%;
-			background:rgba(100,100,100,0.5);
+
+		}
+		#competences th {
+			font-size: 2em;
+		}
+		#competences table {
+			display: flex;
+			justify-content: center;
+			flex-direction: row;
+		}
+		#competences tbody {
+			margin: 0em 5em;
 		}
 
 	/*----section experiences----*/
 
 		#experiences {
 			width: 100%;
-			background:rgba(100,100,100,0.5);
+		}
+		#experiences aside {
+			display: flex;
+			justify-content: space-around;
+
+			text-align: center;
+		}
+		#experiences textarea {
+			border: none;
+			height: 100%;
+			text-align: justify;
+			resize: none;
+		}
+		#experiences a {
+			color: #ff1000;
 		}
 
 	/*---section formation----*/
 
 		#formation {
 			width: 100%;
-			background:rgba(100,100,100,0.5);
 		}
 
 /*-Développeur Web-*/
