@@ -24,7 +24,6 @@ main {
 
 		#apropos {
 			margin-top: 1em;
-
 			text-align: center;
 		}
 
@@ -113,6 +112,8 @@ main {
 
 		#formation {
 			width: 100%;
+		}
+		#formation p {
 		}
 
 /*-Développeur Web-*/
