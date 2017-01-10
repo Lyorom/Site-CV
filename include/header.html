@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>site Quet Romain</title>
+    <!--  minified CSS materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- Logo -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Jquery -->
+    <script type="text/javascript" src="scripts/jquery-3.1.1.js"></script>
+    <!-- minified JavaScript materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+</head>
+
+<body>
+<!--background-->
+<video id="video_background" preload="auto" autoplay loop volume="0.1">
+    <source src="./Ressource/video/sadbot.mp4" type="video/mp4">
+</video>
+<!--nav-->
+<nav class="colorCustom darken-3 nav-extended">
+    <div class="nav-wrapper">
+        <a href="./" class="brand-logo">Romain Quet</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="graphiste.php">Graphiste</a></li>
+            <li><a href="developpeurweb.php">Développeur web</a></li>
+            <button onclick="console()"><i class="material-icons">volume_up</i></button>
+
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="graphiste.php">Graphiste</a></li>
+            <li><a href="developpeurweb.php">Développeur web</a></li>
+        </ul>
+    </div>
+
+</nav>
+
+
+<div id="console">
+    <button id="play">Play</button>
+    <input type="range" min="0" max="1" step="0.1" id="volume">
+    <button id="muet">Mute</button>
+</div>
