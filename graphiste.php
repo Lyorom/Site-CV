@@ -9,7 +9,7 @@
     </div>
 </nav>
 
-            <div id="competences" class="colorCustom col s12">
+            <div id="competences" class="col s12">
                 <h3>Compétences profesionelles</h3>
                     <table>
                         <tbody>
@@ -46,7 +46,7 @@
                         </tbody>
                     </table>
             </div>
-            <div id="experiences" class="colorCustom col s12">
+            <div id="experiences" class="col s12">
                 <h3>Expériences profesionelles</h3>
                 <aside>
                     <div>
@@ -80,7 +80,7 @@
                     </div>
                 </aside>
             </div>
-            <div id="formation" class="colorCustom col s12">
+            <div id="formation" class="col s12">
                 <h3>Formation</h3>
                     <a href="http://www.lyceemistralnimes.net/" target="_blank"><h4>Lycée F. Mistral Nîmes</h4></a>
 
