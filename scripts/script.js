@@ -5,6 +5,7 @@ function $(obj){
 //fonction change volume
 chgtVolume = function(e){
     monVol = e.target.value;
+    localStorage.setItem('volume', monVol);
     if(monVol != 0){
         video.muted=false;
     }
@@ -13,6 +14,8 @@ chgtVolume = function(e){
 //fonction coupe son
 muet = function(){
     video.muted=true;
+    var mute = 0;
+    localStorage.setItem('volume', mute);
     btn_volume.value=0;
 };
 play = function(){
@@ -28,8 +31,17 @@ initVid = function(){
     btn_play = $('play');
     btn_mute =$('muet');
     btn_volume = $('volume');
-    btn_volume.value = 0.1;
-    video.volume= 0.1;
+
+    if (localStorage.volume == null) {
+        btn_volume.value = 0;
+        video.volume= 0;
+    }
+    else  {
+        btn_volume.value = localStorage.getItem('volume');
+        video.volume= localStorage.getItem('volume');
+    }
+
+
     //on ajoute le gestionnaire d'événement sur le bouton play et pause
     btn_play.addEventListener("click", play);
     //on ajoute le gestionnaire d'événement sur le slider
@@ -40,7 +52,13 @@ initVid = function(){
 };
 window.addEventListener("load", initVid);
 
-function console() {
-    var consolemy = document.getElementById('console');
-    consolemy.style.display="block";
-}
+
+    function ConsoleBlock() {
+        var panel = document.getElementById('panel');
+            panel.style.display="block";
+    };
+
+    function ConsoleNone() {
+        var panel = document.getElementById('panel');
+        panel.style.display="none";
+    };

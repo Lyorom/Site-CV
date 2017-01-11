@@ -32,27 +32,39 @@ main {
 .nav-wrapper {
 	margin-left: 1em;
 }
+.none {
+	border: none;
+	background: none;
+}
 
 /*control video*/
-#console {
-	width: 25%;
-	color: black;
+#panel{
 	position: absolute;
 	text-align: center;
+	right: 0;
+	margin-top: 1%;
 	z-index: 10000;
-	background: rgba(121, 121, 121, 0.65);
-	padding: 100px;
-	margin: 10em 34em;
+
+
+	background: rgba(121, 121, 121, 0.87);
+	box-shadow: 2px 2px 2px 1px rgba(129, 129, 129, 0.52);
+	color: black;
 	display: none;
 }
-#console input {
+.textEnd {
+	text-align: end;
+}
+#panel div:last-child {
+	padding: 10%;
+}
+#panel div:last-child input {
 	width: 75%;
 }
-#console button {
-	width: 75%;
+#panel div:last-child button {
+
 }
 input[type=range]+.thumb {
-	background-color: transparent!important;
+	display: none;
 }
 /*-----Index------*/
 

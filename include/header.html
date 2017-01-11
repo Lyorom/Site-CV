@@ -19,20 +19,19 @@
 
 <body>
 <!--background-->
-<video id="video_background" preload="auto" autoplay loop volume="0.1">
+<video id="video_background" preload="auto" autoplay loop>
     <source src="./Ressource/video/sadbot.mp4" type="video/mp4">
 </video>
 <!--nav-->
 <nav class="colorCustom darken-3 nav-extended">
     <div class="nav-wrapper">
         <a href="./" class="brand-logo">Romain Quet</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="graphiste.php">Graphiste</a></li>
             <li><a href="developpeurweb.php">Développeur web</a></li>
-            <button onclick="console()"><i class="material-icons">volume_up</i></button>
-
+            <button onclick="ConsoleBlock()" class="none"><i class="material-icons">volume_up</i></button>
         </ul>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="side-nav" id="mobile-demo">
             <li><a href="graphiste.php">Graphiste</a></li>
             <li><a href="developpeurweb.php">Développeur web</a></li>
@@ -42,8 +41,13 @@
 </nav>
 
 
-<div id="console">
-    <button id="play">Play</button>
-    <input type="range" min="0" max="1" step="0.1" id="volume">
-    <button id="muet">Mute</button>
+<div id="panel">
+    <div class="textEnd">
+        <button onclick="ConsoleNone()" class="none"><i class="fa fa-close" style="font-size:36px"></i></button>
+    </div>
+    <div>
+        <button id="play" class="none"><i class='fa fa-play'></i></button>
+        <input id="volume" type="range" min="0" max="1" step="0.1">
+        <button id="muet" class="none"><i class="fa fa-volume-off" style="font-size: 25px"></i></button>
+    </div>
 </div>
