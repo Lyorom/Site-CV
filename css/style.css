@@ -67,9 +67,6 @@ body {
 #panel div:last-child input {
 	width: 75%;
 }
-#panel div:last-child button {
-
-}
 input[type=range]+.thumb {
 	display: none;
 }
@@ -78,13 +75,19 @@ input[type=range]+.thumb {
 	/*------section à propos------*/
 
 		#apropos {
-			margin-top: 1em;
-			text-align: center;
+			margin: 1em;
+			display: flex;
 		}
 
-		img {
+		#apropos img {
 			width: 200px;
+			height: 200px;
 			border-radius: 50%;
+		}
+		#apropos p {
+			margin: 5em;
+			width: 50%;
+			text-align: justify;
 		}
 
 	/*------section contact------*/
@@ -152,9 +155,18 @@ input[type=range]+.thumb {
 	/*---section formation----*/
 
 		#formation {
-			width: 100%;
+			/*width: 100%;*/
+			text-align: center;
+			color: white;
+
+		}
+		#formation a {
+
+			text-decoration: none;
+			color: white;
 		}
 		#formation p {
+
 		}
 
 /*-Développeur Web-*/
