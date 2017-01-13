@@ -56,9 +56,22 @@ window.addEventListener("load", initVid);
     function ConsoleBlock() {
         var panel = document.getElementById('panel');
             panel.style.display="block";
-    };
+    }
 
     function ConsoleNone() {
         var panel = document.getElementById('panel');
         panel.style.display="none";
-    };
+    }
+    
+    
+    // Mobile
+
+    function BoutInNav() {
+        var navMobile = document.getElementById('mobile-nav');
+        navMobile.style.display="flex";
+    }
+    function BoutOutNav() {
+        var navMobile = document.getElementById('mobile-nav');
+        navMobile.style.display="none";
+    }
+

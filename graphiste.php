@@ -4,7 +4,7 @@
         <ul class="tabs tabs-transparent">
             <li class="tab"><a href="#competences">Competences</a></li>
             <li class="tab"><a href="#experiences">Experiences</a></li>
-            <li class="tab"><a class="active" href="#formation">Formation</a></li>
+            <li class="tab"><a href="#formation">Formation</a></li>
         </ul>
     </div>
 </nav>
@@ -86,6 +86,8 @@
 
                     <p>CAP Signalétique,Enseigne,Décor</p>
                     <p>BMA Brevet des Métiers d'Art<br>OPTION Graphique, Décor</p>
+                    <br>
+                <button class="colorCustom" style="font-size: 25px"><a href="Ressource/CV%20Romain%20QUET.pdf">CV Graphiste</a></button>
 
 
             </div>

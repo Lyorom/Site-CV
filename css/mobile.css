@@ -1,0 +1,46 @@
+/*-----header-----*/
+#mobile-nav {
+    background-color: rgba(46, 46, 46, 0.82);
+
+    position: fixed;
+    left: 0;
+    height: 150%;
+    width: 50%;
+    text-align: center;
+    z-index: 3;
+    display: none;
+    flex-direction: column;
+}
+/*-----Index------*/
+
+    /*------section à propos------*/
+
+    #apropos {
+
+    }
+
+    #apropos img {
+
+    }
+    #apropos p {
+
+    }
+/*----Graphiste---*/
+
+    /*----section competences----*/
+
+    #competences table {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /*----section experiences----*/
+
+    #experiences aside {
+        flex-direction: column;
+    }
+    #experiences textarea {
+        height: 100px;
+    }
+/*-Développeur Web-*/

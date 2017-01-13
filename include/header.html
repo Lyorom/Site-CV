@@ -3,21 +3,27 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#2E2E2E">
     <title>site Quet Romain</title>
     <!--  minified CSS materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!--myCss-->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" media="(max-width: 992px)" href="./css/mobile.css" type="text/css" />
+
     <!-- Logo -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Jquery -->
     <script type="text/javascript" src="scripts/jquery-3.1.1.js"></script>
     <!-- minified JavaScript materialize -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <!--myScript-->
     <script type="text/javascript" src="scripts/script.js"></script>
 
     <!--font-->
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Dancing+Script" rel="stylesheet">
 </head>
 
 <body>
@@ -26,6 +32,7 @@
     <source src="./Ressource/video/sadbot.mp4" type="video/mp4"></video>
 <section id="background"></section>
 <!--nav-->
+<div class="navbar-fixed">
 <nav class="colorCustom darken-3 nav-extended">
     <div class="nav-wrapper">
         <a href="./" class="brand-logo" style="font-family: Dancing Script;color: rgb(71, 91, 225)">Romain Quet</a>
@@ -34,15 +41,17 @@
             <li><a href="developpeurweb.php">Développeur web</a></li>
             <button onclick="ConsoleBlock()" class="none"><i class="material-icons">volume_up</i></button>
         </ul>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="side-nav" id="mobile-demo">
+        <a href="#" data-activates="mobile-demo" onclick="BoutInNav()" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="" id="mobile-nav">
+            <li><a class="left" onclick="BoutOutNav()"><i class="fa fa-close" style="font-size:36px"></i></a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="graphiste.php">Graphiste</a></li>
             <li><a href="developpeurweb.php">Développeur web</a></li>
         </ul>
     </div>
 
 </nav>
-
+</div>
 
 <div id="panel">
     <div class="textEnd">
@@ -54,3 +63,5 @@
         <button id="muet" class="none"><i class="fa fa-volume-off" style="font-size: 25px"></i></button>
     </div>
 </div>
+
+
