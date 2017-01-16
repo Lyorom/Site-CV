@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width" />
-	<title>site Quet Romain</title>
-	<!--  minified CSS materialize -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-<!--	<link rel="stylesheet" type="text/css" href="../css/style.css">-->
-</head>
-<body>
-			<section id="contact">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <meta name="theme-color" content="#2E2E2E">
+        <title>site Quet Romain</title>
+        <!--myCss-->
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" media="(max-width: 992px)" href="../css/mobile.css" type="text/css" />
 
-						<?php
+        <style>
+            body {
+                margin-top: 25%;
+                text-align: center;
+                font-size: 2em;
+                overflow-y: hidden;
+            }
+            a {
+                text-decoration: none;
+                color: #8c0002;
+            }
+        </style>
+    </head>
+    <body>
+        <video id="video_background" preload="auto" autoplay loop>
+            <source src="../Ressource/video/sky.mp4" type="video/mp4"></video>
+        <section id="background"></section>
+        <?php
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $msg = $_POST['msg'];
 
-						$nom = $_POST['nom'];
-						$mail = $_POST['mail'];
-						$message = $_POST['message'];
-						// on se connecte à MySQL
-						include ('BDD.php');
+        $message = "$name $email $msg";
 
+        $to = 'quet.romain@gmail.com';
+        $objet = "contacte"; //Met l'objet que tu veux
 
+        /* En-têtes de l'e-mail */
+        $headers = "From: $name \r\n\r\n";
 
-//						$req = $bdd->prepare('INSERT INTO messages(nom, mail, message) VALUES(:nom, :mail, :message)');
-//
-//						$req->execute(array(
-//
-//							'nom' => $nom,
-//							'mail' => $mail,
-//							'message' => $message,
-//							));
-//
-//						// On récupère tout le contenu de la table
-//						$reponse = $bdd->query('SELECT * FROM messages');
-//						// On affiche chaque entrée une à une
-//						while ($donnees = $reponse->fetch())
-//						{
-//							echo '<br>';
-//							echo $donnees['nom'];
-//							echo '<br>';
-//							echo $donnees['mail'];
-//							echo '<br>';
-//							echo $donnees['message'];
-//						}
-//
-//						$reponse->closeCursor(); // Termine le traitement de la requête
-//
-//						?>
-				<a href="../" class="brand-logo">Romain Quet</a>
-			</section>
-	</body>
+        /* Envoi de l'e-mail */
+        if (mail($to, $objet, $message, $headers)) {
 
+            echo "L'email a bien été envoyé."."<br />";
+            echo "<a href='../'>retour</a>";
+        }
+        else
+        {
+            echo "Une erreur c'est produite lors de l'envois de l'email."."<br />";
+            echo "envoyer votre message a ce mail:";
+            echo "<a href='maito:quet.romain@gmail.com' style='color: white;font-size: 25px;margin-top: 1em'>quet.romain@gmail.com</a>"."<br />";
+            echo "<a href='../'>retour</a>";
+        }
+        ?>
+    </body>
 </html>
