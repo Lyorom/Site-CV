@@ -20,28 +20,29 @@
 
 	<form class="col s12" method="post" action="./php/contact.php">
 		<h4>Contactez Moi</h4>
-		<div class="row">
-			<div class="input-field col s6">
-				<i class="material-icons prefix">account_circle</i>
-				<input name="name" id="icon_prefix" type="text" class="validate">
-				<label for="icon_prefix">Nom</label>
-			</div>
-			<div class="input-field col s6">
-				<i class="material-icons prefix">email</i>
-				<input name="email" id="email" type="email" class="validate">
-				<label for="email" data-error="wrong" data-success="right">Email</label>
-			</div>
-		</div>
-		<div>
-			<div class="input-field col s6">
-				<i class="material-icons prefix">mode_edit</i>
-				<textarea name="msg" id="icon_prefix2" class="materialize-textarea"></textarea>
-				<label for="icon_prefix2">Messages</label>
-			</div>
-		</div>
-		<button class="btn waves-effect waves-light" type="submit" name="action">Submit
-			<i class="material-icons right">send</i>
-		</button>
+		<a class="grey-text text-lighten-4 right" href="mailto:Quet.Romain@gmail.com">Quet.Romain@gmail.com</a>
+<!--		<div class="row">-->
+<!--			<div class="input-field col s6">-->
+<!--				<i class="material-icons prefix">account_circle</i>-->
+<!--				<input name="name" id="icon_prefix" type="text" class="validate">-->
+<!--				<label for="icon_prefix">Nom</label>-->
+<!--			</div>-->
+<!--			<div class="input-field col s6">-->
+<!--				<i class="material-icons prefix">email</i>-->
+<!--				<input name="email" id="email" type="email" class="validate">-->
+<!--				<label for="email" data-error="wrong" data-success="right">Email</label>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--		<div>-->
+<!--			<div class="input-field col s6">-->
+<!--				<i class="material-icons prefix">mode_edit</i>-->
+<!--				<textarea name="msg" id="icon_prefix2" class="materialize-textarea"></textarea>-->
+<!--				<label for="icon_prefix2">Messages</label>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--		<button class="btn waves-effect waves-light" type="submit" name="action">Submit-->
+<!--			<i class="material-icons right">send</i>-->
+<!--		</button>-->
 	</form>
 </div>
 

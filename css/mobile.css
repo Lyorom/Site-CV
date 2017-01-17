@@ -29,18 +29,20 @@
 
     /*----section competences----*/
 
-    #competences table {
-        display: flex;
-        flex-direction: column;
+    #competences {
+        justify-content: space-around;
     }
-
+    #competences section {
+        margin-top: 30%;
+    }
 
     /*----section experiences----*/
 
-    #experiences aside {
-        flex-direction: column;
+    #experiences img {
+        width: 350px;
+        height: 170px;
     }
-    #experiences textarea {
-        height: 100px;
+
+    #experiences section {
+        display: block;
     }
-/*-Développeur Web-*/

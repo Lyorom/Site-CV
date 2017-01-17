@@ -33,14 +33,14 @@
 
         $message = "$name $email $msg";
 
-        $to = 'quet.romain@gmail.com';
+        $to = 'contact@quetromain.hol.es';
         $objet = "contacte"; //Met l'objet que tu veux
 
         /* En-têtes de l'e-mail */
         $headers = "From: $name \r\n\r\n";
 
         /* Envoi de l'e-mail */
-        if (mail($to, $objet, $message, $headers)) {
+        if (mail($to, $headers, $objet, $message, $headers)) {
 
             echo "L'email a bien été envoyé."."<br />";
             echo "<a href='../'>retour</a>";
