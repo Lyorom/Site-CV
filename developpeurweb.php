@@ -12,64 +12,66 @@
             <div id="competences" class="col s12">
                 <h3>Compétences profesionelles</h3>
                 <section>
-                    <ul>
-                        <li><i class="devicon-html5-plain colored"></i><p>HTML</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-css3-plain colored"></i><p>CSS</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o""></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-javascript-plain colored"></i><p>JAVASCRIPT</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star""></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-jquery-plain colored"></i><p>JQUERY</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o""></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-php-plain colored"></i><p>PHP</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-mysql-plain colored"></i><p>MYSQL</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-wordpress-plain colored"></i><p>WORDPRESS</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                </section>
-                <section>
-                    <ul>
-                        <li><i class="devicon-linux-plain colored"></i><p>LINUX</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-ssh-plain colored"></i><p>SSH</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-atom-plain colored"></i><p>ATOM</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-phpstorm-plain colored"></i><p>PHPSTORM</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-git-plain colored"></i><p>GIT</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-github-plain colored"></i><p>GITHUB</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><i class="devicon-trello-plain colored"></i><p>TRELLO</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
-                    </ul>
+                    <div>
+                        <ul>
+                            <li><i class="devicon-html5-plain colored"></i><p>HTML</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-css3-plain colored"></i><p>CSS</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o""></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-javascript-plain colored"></i><p>JAVASCRIPT</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star""></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-jquery-plain colored"></i><p>JQUERY</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o""></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-php-plain colored"></i><p>PHP</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-mysql-plain colored"></i><p>MYSQL</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-wordpress-plain colored"></i><p>WORDPRESS</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="devicon-linux-plain colored"></i><p>LINUX</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-ssh-plain colored"></i><p>SSH</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-atom-plain colored"></i><p>ATOM</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-phpstorm-plain colored"></i><p>PHPSTORM</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-git-plain colored"></i><p>GIT</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-github-plain colored"></i><p>GITHUB</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><i class="devicon-trello-plain colored"></i><p>TRELLO</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                    </div>
                 </section>
 
             </div>

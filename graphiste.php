@@ -12,34 +12,35 @@
             <div id="competences" class="col s12">
                 <h3>Compétences profesionelles</h3>
                 <section>
-                    <ul>
-                        <li><img src="http://icons.iconarchive.com/icons/blackvariant/shadow135-adobe/48/Illustrator-icon.png"></img><p>ILLUSTRATOR</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
-                    </ul>
-                    <ul>
-                        <li><img src="http://icons.iconarchive.com/icons/blackvariant/shadow135-adobe/48/Photoshop-icon.png"></img><p>PHOTOSHOP</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star""></i><i class="fa fa-star"></i></li>
-                    </ul>
-                    <ul>
-                        <li><img src="http://icons.iconarchive.com/icons/hamzasaleem/google-apps/48/Google-Sketchup-icon.png"></img><p>SKETCHUP</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o""></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                </section>
-                <section>
-                    <ul>
-                        <li><img src="http://icons.iconarchive.com/icons/creative-freedom/free-vibrant/48/Edit-icon.png"></img><p>TRACAGE</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><img src="http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Graphics-Painting-icon.png"></img><p>PAINTURE</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
-                    </ul>
-                    <ul>
-                        <li><img src="http://icons.iconarchive.com/icons/designcontest/vintage/48/Color-Palette-icon.png"></img><p>POSE ADHESIF</p></li>
-                        <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
-                    </ul>
-                </section>
-            </div>
+                    <div>
+                        <ul>
+                            <li><img src="http://icons.iconarchive.com/icons/blackvariant/shadow135-adobe/48/Illustrator-icon.png"></img><p>ILLUSTRATOR</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
+                        </ul>
+                        <ul>
+                            <li><img src="http://icons.iconarchive.com/icons/blackvariant/shadow135-adobe/48/Photoshop-icon.png"></img><p>PHOTOSHOP</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star""></i><i class="fa fa-star"></i></li>
+                        </ul>
+                        <ul>
+                            <li><img src="http://icons.iconarchive.com/icons/hamzasaleem/google-apps/48/Google-Sketchup-icon.png"></img><p>SKETCHUP</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o""></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><img src="http://icons.iconarchive.com/icons/creative-freedom/free-vibrant/48/Edit-icon.png"></img><p>TRACAGE</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><img src="http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Graphics-Painting-icon.png"></img><p>PAINTURE</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
+                        </ul>
+                        <ul>
+                            <li><img src="http://icons.iconarchive.com/icons/designcontest/vintage/48/Color-Palette-icon.png"></img><p>POSE ADHESIF</p></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+            </section>
 
             <div id="experiences" class="col s12">
                 <h3>Expériences profesionelles</h3>
