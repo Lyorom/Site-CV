@@ -12,7 +12,7 @@
 <!--A PROPOS-->
 <div id="apropos" class="col s12">
     <h4>Bienvenue sur mon site</h4>
-	<p>je suis un jeune graphiste de 20ans<br/>je suis intéressé par le développement web<br/>est curieux des dernieres nouveautés</p>
+	<p>je suis un jeune graphiste de 20ans<br/>je suis intéressé par le développement web<br/>et curieux des dernieres nouveautés</p>
 	<img class="hoverable" src="Ressource/photo.jpg">
 </div>
 <!--CONTACT-->
