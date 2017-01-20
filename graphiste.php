@@ -40,7 +40,8 @@
                             <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
                         </ul>
                     </div>
-            </section>
+                </section>
+            </div>
 
             <div id="experiences" class="col s12">
                 <h3>Expériences profesionelles</h3>
