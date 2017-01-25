@@ -15,7 +15,7 @@
                     <div>
                         <ul>
                             <li><i class="devicon-html5-plain colored"></i><p>HTML</p></li>
-                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></li>
                         </ul>
                         <ul>
                             <li><i class="devicon-css3-plain colored"></i><p>CSS</p></li>
@@ -45,11 +45,11 @@
                     <div>
                         <ul>
                             <li><i class="devicon-linux-plain colored"></i><p>LINUX</p></li>
-                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
                         </ul>
                         <ul>
                             <li><i class="devicon-ssh-plain colored"></i><p>SSH</p></li>
-                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
                         </ul>
                         <ul>
                             <li><i class="devicon-atom-plain colored"></i><p>ATOM</p></li>
@@ -57,7 +57,7 @@
                         </ul>
                         <ul>
                             <li><i class="devicon-phpstorm-plain colored"></i><p>PHPSTORM</p></li>
-                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
                         </ul>
                         <ul>
                             <li><i class="devicon-git-plain colored"></i><p>GIT</p></li>
@@ -69,7 +69,7 @@
                         </ul>
                         <ul>
                             <li><i class="devicon-trello-plain colored"></i><p>TRELLO</p></li>
-                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
+                            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o""></i><i class="fa fa-star-o"></i></li>
                         </ul>
                     </div>
                 </section>
