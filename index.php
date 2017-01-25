@@ -17,7 +17,6 @@
 </div>
 <!--CONTACT-->
 <div id="contact" class="col s12">
-
 	<form class="col s12" method="post" action="./php/contact.php">
 		<h4>Contactez Moi</h4>
 		<a class="grey-text text-lighten-4 right" href="mailto:Quet.Romain@gmail.com">Quet.Romain@gmail.com</a>

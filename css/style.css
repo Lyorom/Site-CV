@@ -5,8 +5,7 @@
 	right: 0;
 	min-width: 100%;
 	min-height: 100%;
-	width: auto;
-	height: auto;
+	width: 100%;
 	z-index: -1000;
 	overflow: hidden;
 }
@@ -20,7 +19,7 @@
 	height: 100%;
 	z-index: -1000;
 	overflow: hidden;
-	background-color: rgba(121, 121, 121, 0.46);
+	background-color: rgba(19, 64, 150, 0.48);
 }
 body {
 	margin: 0;
