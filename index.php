@@ -19,7 +19,7 @@
 <div id="contact" class="col s12">
 	<form class="col s12" method="post" action="./php/contact.php">
 		<h4>Contactez Moi</h4>
-		<a class="grey-text text-lighten-4 right" href="mailto:contact@quetromain.hol.es">contact@quetromain.hol.es</a>
+		<a class="grey-text text-lighten-4 right" href="mailto:romain@quet.fr">romain@quet.fr</a>
 <!--		<div class="row">-->
 <!--			<div class="input-field col s6">-->
 <!--				<i class="material-icons prefix">account_circle</i>-->
