@@ -119,7 +119,7 @@
                     <p>CAP Signalétique,Enseigne,Décor</p>
                     <p>BMA Brevet des Métiers d'Art<br>OPTION Graphique, Décor</p>
                     <br>
-                <button class="colorCustom"><a href="Ressource/graphiste/CV-Graphiste-RQ.pdf">CV Graphiste</a></button>
+                <button class="colorCustom"><a href="Ressource/graphiste/CV-Graph-RomainQuet.pdf">CV Graphiste</a></button>
 
 
             </div>

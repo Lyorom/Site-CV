@@ -98,7 +98,7 @@
                 <p>Coda by simblon<br>Developpeur Web et mobile</p>
                 <a href="http://www.coda-ales.fr" target="_blank">site coda</a>
                 <br>
-                <button class="colorCustom"><a href="Ressource/dev/CV-dev-RQ.pdf">CV Developpeur</a></button>
+                <button class="colorCustom"><a href="Ressource/dev/CV-Dev-RomainQuet.pdf">CV Developpeur</a></button>
             </div>
         <?php include 'include/footer.html';?>
     </body>
